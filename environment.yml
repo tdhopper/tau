@@ -1,0 +1,4 @@
+name: tau
+dependencies:
+- pip
+- python=2
