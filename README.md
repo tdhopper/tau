@@ -3,7 +3,7 @@
 Steps for setting up auto-tweet account (using OS X or Linux):
 
 1. [Create Twitter app](https://apps.twitter.com/) and get consumer and access keys.
-2. [Fork this repository](https://github.com/tdhopper/tau/tree/master#fork-destination-box) and clone to local.
+2. Fork this repository and clone to local.
 2. Run `make credentials_file` to create `twitter_credentials.json`.
 3. Add consumer and access keys to `twitter_credentials.json`.
 4. Modify `tweet_content` function in `tweet.py` to generate tweet string (140 characters or less).
