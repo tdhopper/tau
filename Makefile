@@ -13,8 +13,8 @@ dependencies:
 
 prepare: dependencies
 	rm -f lambda_bundle.zip
-	zip lambda_bundle *
-	git clean --force -d --exclude *.zip
+	zip -r lambda_bundle *
+	make clean
 
 clean:
 	git clean -fd
